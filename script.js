@@ -1,3 +1,15 @@
+var _ = require('lodash');
+console.log(_);
+
+var array = [1,2,3,4,5,6,7,8];
+console.log('answer:', _.without(array, 3));
+
+
+
+
+
+
+
 	/*var first = prompt("enter first number");
 	var second = prompt("enter second number");
 	var sum = Number(first) + Number(second);
@@ -74,6 +86,6 @@ checkDriverAge2();*/
 
 
 
-var nameList = [ ["Mohsin" , "Maqsood" , "Shahid", "Anis", "Sameer" , "Aziz"],
+/*var nameList = [ ["Mohsin" , "Maqsood" , "Shahid", "Anis", "Sameer" , "Aziz"],
 				["Maredia", "Maredia", "Maredia", "Maredia", "Maredia", "Maredia",]];
-console.log(nameList[0]);
+console.log(nameList[0]);*/

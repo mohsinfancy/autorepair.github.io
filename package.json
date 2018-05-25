@@ -1,0 +1,22 @@
+{
+  "name": "autorepair.github.io",
+  "version": "1.0.0",
+  "description": "JAVASCRIPT TYPES\r -----------------\r 1. Number \r 2. String\r 3. Boolean\r 4. Undefined\r 5. Null\r <!-- 6. Symbol (new in ECMAScript 6) -->\r 7. Object",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohsinfancy/autorepair.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohsinfancy/autorepair.github.io/issues"
+  },
+  "homepage": "https://github.com/mohsinfancy/autorepair.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
